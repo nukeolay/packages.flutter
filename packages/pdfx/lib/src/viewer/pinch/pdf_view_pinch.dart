@@ -571,13 +571,13 @@ class _PdfViewPinchState extends State<PdfViewPinch>
             height: page.rect!.height,
             decoration: const BoxDecoration(
               color: Color.fromARGB(255, 250, 250, 250),
-              boxShadow: [
-                BoxShadow(
-                  color: Color(0x73000000),
-                  blurRadius: 4,
-                  offset: Offset(2, 2),
-                ),
-              ],
+              // boxShadow: [
+              //   BoxShadow(
+              //     color: Color(0x73000000),
+              //     blurRadius: 4,
+              //     offset: Offset(2, 2),
+              //   ),
+              // ],
             ),
             child: Stack(
               children: [
